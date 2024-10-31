@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import { loadStripe } from '@stripe/stripe-js';
 
-const stripePromise = loadStripe('pk_test_51QFmWYG24hgFt3aLxjYVdS8LQ0y67TcR04y65iRUcEelNMyU2dSOP1TLGIZzqB39GdKcYrMYGBpF6BMs7ZzDw9Bf00DkY9BHDm'); // Replace with your actual public key
+const stripePromise = loadStripe(''''''''''''''); // Replace with your actual public key
 
 const App = () => {
     const [email, setEmail] = useState('');
